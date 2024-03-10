@@ -8,12 +8,16 @@
     border-radius: 20px;
 }
 
+@mixin obj-fit {
+    object-fit: cover;
+}
+
 @mixin logo-latam {
     @include radius-10;
 
     width: 55px;
     height: 55px;
-    object-fit: cover;
+    @include obj-fit;
 }
 
 @mixin f-weight-700 {
@@ -30,7 +34,7 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    object-fit: cover;
+    @include obj-fit;
 }
 
 @mixin novedades-right-img {
@@ -43,4 +47,16 @@
 @mixin right__section-content {
     width: 187px;
     margin-left: 30px;
+}
+
+@mixin popular__post {
+    width: 298px;
+    height: 200px;
+    @include radius-20;
+    @include obj-fit;
+}
+
+@mixin pupular-content {
+    width: 298px;
+    margin-bottom: 58px;
 }

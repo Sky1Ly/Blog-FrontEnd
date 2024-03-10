@@ -73,6 +73,17 @@ h4 {
   margin-left: 30px;
 }
 
+.popular-left .pupular-content {
+  width: 298px;
+  margin-bottom: 58px;
+}
+.popular-left .popular__post {
+  width: 298px;
+  height: 200px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
 .logo-latam {
   border-radius: 10px;
   width: 55px;

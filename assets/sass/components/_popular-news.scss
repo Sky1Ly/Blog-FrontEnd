@@ -1,58 +1,13 @@
 @import '../abstracts/mixins';
 
-
-//Novedades Left
-.fecha-publicacion {
-    @include fecha-publicacion;
-}
-
-.novedades-left {
-    h2 {
-        margin-top: 27px;
-    }
-    .home-img {
-        width: 603px;
-        height: 314px;
-        @include radius-20;
-        margin-top: 27px;
+.popular-left {
+    .pupular-content{
+        @include pupular-content;
     }
 
-    .fecha-publicacion {
-        margin-top: 22px;
+    .popular__post {
+        @include popular__post;
     }
 }
 
-.autor{
-    display: flex;
-    align-items: center;
-    margin-top: 16px;
-
-    .autor__img {
-        @include autor__img;
-    }
-
-    .home-autor {
-        width: 60px;
-        height: 60px;
-    }
-
-    .home-p-autor {
-        font-size: 24px;
-        font-weight: 500;
-    }
-}
-
-//Novedades Right
-.novedades-right {
-    .first-article {
-        margin-top: 96px;
-    }
-
-    .novedades-right-img {
-        @include novedades-right-img;
-    }
-
-    .right__section-content {
-        @include right__section-content;
-    }
-}
+//Categorias
