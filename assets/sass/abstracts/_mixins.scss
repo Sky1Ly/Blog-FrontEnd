@@ -1,0 +1,46 @@
+@import 'variables';
+
+@mixin radius-10 {
+    border-radius: 10px;
+}
+
+@mixin radius-20 {
+    border-radius: 20px;
+}
+
+@mixin logo-latam {
+    @include radius-10;
+
+    width: 55px;
+    height: 55px;
+    object-fit: cover;
+}
+
+@mixin f-weight-700 {
+    font-weight: 700;
+    
+}
+
+@mixin fecha-publicacion {
+    font-size: 16px;
+    color: $color-title;
+}
+
+@mixin autor__img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+@mixin novedades-right-img {
+    width: 189px;
+    height: 145px;
+    margin-bottom: 32px;
+    @include radius-20;
+}
+
+@mixin right__section-content {
+    width: 187px;
+    margin-left: 30px;
+}

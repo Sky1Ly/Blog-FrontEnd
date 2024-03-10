@@ -1,0 +1,19 @@
+//Abstracts
+@use './abstracts/mixins';
+@use './abstracts/variables';
+
+//Base
+@use './base/typography';
+
+//Components
+@use './components/categories';
+@use './components/home-news';
+@use './components/popular-news';
+@use './components/principal-home.new';
+
+//Layout
+@use './layout/footer';
+@use './layout/navbar';
+
+//Pages
+@use './pages/home';

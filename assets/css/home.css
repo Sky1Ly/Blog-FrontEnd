@@ -1,0 +1,83 @@
+/*Poppins url Google Fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 28px;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+h4 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.fecha-publicacion {
+  font-size: 16px;
+  color: #171717;
+}
+
+.novedades-left h2 {
+  margin-top: 27px;
+}
+.novedades-left .home-img {
+  width: 603px;
+  height: 314px;
+  border-radius: 20px;
+  margin-top: 27px;
+}
+.novedades-left .fecha-publicacion {
+  margin-top: 22px;
+}
+
+.autor {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+.autor .autor__img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.autor .home-autor {
+  width: 60px;
+  height: 60px;
+}
+.autor .home-p-autor {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.novedades-right .first-article {
+  margin-top: 96px;
+}
+.novedades-right .novedades-right-img {
+  width: 189px;
+  height: 145px;
+  margin-bottom: 32px;
+  border-radius: 20px;
+}
+.novedades-right .right__section-content {
+  width: 187px;
+  margin-left: 30px;
+}
+
+.logo-latam {
+  border-radius: 10px;
+  width: 55px;
+  height: 55px;
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=home.css.map */
