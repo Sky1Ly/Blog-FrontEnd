@@ -10,10 +10,15 @@
 @use './components/novedades-news';
 @use './components/popular-news';
 @use './components/principal-home.new';
+@use './components/buttons';
+@use './components/inputs';
 
 //Layout
 @use './layout/footer';
 @use './layout/navbar';
+@use './layout/form-login';
+@use './layout/header';
 
 //Pages
 @use './pages/home';
+@use './pages/login'
