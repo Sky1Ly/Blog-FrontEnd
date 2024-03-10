@@ -1,4 +1,5 @@
 @import '../abstracts/mixins';
+@import '../abstracts/variables';
 
 .popular-left {
     .pupular-content{
@@ -11,3 +12,60 @@
 }
 
 //Categorias
+.categoria{
+    @include categorias;
+}
+
+#html {
+    background-color: $html-color;
+
+    img {
+        width: 85px;
+        height: 74px;
+    }
+}
+
+#js {
+    background-color: $js-color;
+
+    img {
+        width: 87px;
+        height: 75px;
+    }
+}
+
+#css {
+    background-color: $css-color;
+
+    img {
+        width: 73px;
+        height: 68px;
+    }
+}
+
+#react {
+    background-color: $react-color;
+
+    img {
+        width: 99px;
+        height: 74px;
+    }
+}
+
+#vue {
+    background-color: $vue-color;
+
+    img {
+        width: 77px;
+        height: 57px;
+    }
+}
+
+#btrap {
+    background-color: $bootstrap-color;
+
+    img {
+        width: 91px;
+        height: 80px;
+    }
+}

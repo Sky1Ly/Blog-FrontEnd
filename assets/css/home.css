@@ -84,6 +84,67 @@ h4 {
   object-fit: cover;
 }
 
+.categoria {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 298px;
+  height: 89px;
+  margin-bottom: 30px;
+  font-size: 32px;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 10px;
+}
+
+#html {
+  background-color: #E93E30;
+}
+#html img {
+  width: 85px;
+  height: 74px;
+}
+
+#js {
+  background-color: #F7E018;
+}
+#js img {
+  width: 87px;
+  height: 75px;
+}
+
+#css {
+  background-color: #299ED5;
+}
+#css img {
+  width: 73px;
+  height: 68px;
+}
+
+#react {
+  background-color: #292C33;
+}
+#react img {
+  width: 99px;
+  height: 74px;
+}
+
+#vue {
+  background-color: #67C770;
+}
+#vue img {
+  width: 77px;
+  height: 57px;
+}
+
+#btrap {
+  background-color: #563D7C;
+}
+#btrap img {
+  width: 91px;
+  height: 80px;
+}
+
 .logo-latam {
   border-radius: 10px;
   width: 55px;
