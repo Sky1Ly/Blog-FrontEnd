@@ -23,3 +23,8 @@ h4 {
     @include f-weight-700;
     font-size: 20px;
 }
+
+a {
+    text-decoration: none;
+    color: $color-title;
+}

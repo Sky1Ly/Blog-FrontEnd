@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!--Style CSS-->
+    <link rel="stylesheet" href="../../css/home.css" />
+    <title>Modifica el tema de Bootstrap con variables CSS</title>
+  </head>
+  <body>
+    <!--Menú-->
+    <nav class="navbar navbar-expand-lg m-5">
+      <div class="container">
+        <a class="navbar-brand" href="../../../index.html"
+          ><img src="../../img/logos/adl.png" class="logo-latam" /> Blog
+          FrontEnd</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="../../../index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../login.html">Iniciar Sesión</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../registro.html">Registrarse</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <hr />
+
+    <header class="container">
+      <h2>Modifica el tema de Bootstrap con variables CSS</h2>
+
+      <div class="autor">
+        <img src="../../img/logos/adl.png" class="autor__img" />
+        <p class="my-0 ms-3">Desafío Latam</p>
+        <p class="fecha-publicacion my-0 ms-5">24 Noviembre, 2024</p>
+      </div>
+
+      <div class="contenedor">
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel vero ea,
+          nemo quae commodi itaque consequatur eveniet? Facilis, odio! Odit
+          error quod, quisquam ut laboriosam aperiam qui magnam eos similique?
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo,
+          fugit repudiandae sapiente vitae itaque tempore fugiat placeat
+          quibusdam ipsa sed dolorem quae non perferendis suscipit omnis
+          deserunt obcaecati rem? Ipsam.
+        </p>
+        <div class="img__post">
+          <img src="../../img/posts/bootstrap.png" />
+        </div>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel vero ea,
+          nemo quae commodi itaque consequatur eveniet? Facilis, odio! Odit
+          error quod, quisquam ut laboriosam aperiam qui magnam eos similique?
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo,
+          fugit repudiandae sapiente vitae itaque tempore fugiat placeat
+          quibusdam ipsa sed dolorem quae non perferendis suscipit omnis
+          deserunt obcaecati rem? Ipsam.
+        </p>
+      </div>
+    </header>
+
+    <!--Relacionados-->
+    <section class="container row mx-auto relacionados">
+        <h3>Relacionados</h3>
+        <article class="col-xl-4">
+            <div class="pupular-content">
+                <img
+                  src="../../img/posts/vue-components.png"
+                  class="popular__post radius"
+                />
+                <p class="fecha-publicacion">24 Noviembre, 2024</p>
+                <h4>Componentes Vue</h4>
+  
+                <div class="autor">
+                  <img src="../../img/logos/adl.png" class="autor__img" />
+                  <p class="my-0 ms-3">Desafío Latam</p>
+                </div>
+              </div>
+        </article>
+
+        <article class="col-xl-4">
+            <div class="pupular-content">
+                <img
+                  src="../../img/posts/api-js.png"
+                  class="popular__post radius"
+                />
+                <p class="fecha-publicacion">24 Noviembre, 2024</p>
+                <h4>Consumo de API con JavaScript</h4>
+  
+                <div class="autor">
+                  <img src="../../img/logos/adl.png" class="autor__img" />
+                  <p class="my-0 ms-3">Desafío Latam</p>
+                </div>
+              </div>
+        </article>
+
+        <article class="col-xl-4">
+            <div class="pupular-content">
+                <img
+                  src="../../img/posts/sass.jpg"
+                  class="popular__post radius"
+                />
+                <p class="fecha-publicacion">24 Noviembre, 2024</p>
+                <h4>CSS reusable con Sass</h4>
+  
+                <div class="autor">
+                  <img src="../../img/logos/adl.png" class="autor__img" />
+                  <p class="my-0 ms-3">Desafío Latam</p>
+                </div>
+              </div>
+        </article>
+    </section>
+
+    <hr />
+    <footer class="container mx-auto row m-5">
+      <div class="col-xl-6 d-flex align-items-center">
+        <img src="../../img/logos/adl.png" class="logo-latam" />
+        <p class="my-0 ms-4">Blog FrontEnd</p>
+      </div>
+
+      <div class="col-xl-6 d-flex justify-content-end align-items-center">
+        <p class="my-0">Eider Agudelo - 2024</p>
+      </div>
+    </footer>
+  </body>
+</html>
