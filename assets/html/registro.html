@@ -60,8 +60,20 @@
     <!--Form-->
     <div class="container">
       <div class="form-login">
-        <h1 class="form-login__title">Bienvenido</h1>
-        <form action="../../index.html">
+        <h2 class="form-login__title">Regístrate ¡Es gratis!</h2>
+        <form action="./login.html">
+          <input
+            class="form-login__input"
+            type="text"
+            placeholder="Nombre"
+            required
+          />
+          <input
+            class="form-login__input"
+            type="text"
+            placeholder="Apellido"
+            required
+          />
           <input
             class="form-login__input"
             type="email"
@@ -74,30 +86,25 @@
             placeholder="Contraseña"
             required
           />
-          <div class="form-options">
-            <label class="form-options__label">
-              <input
-                type="checkbox"
-                class="form-options__checkbox"
-              />Recordarme</label
-            >
-            <a href="#" class="form-options__forget-password"
-              >¿Olvidaste tu contraseña?</a
-            >
-          </div>
+          <input
+            class="form-login__input"
+            type="password"
+            placeholder="Confirma tu contraseña"
+            required
+          />
 
-          <button class="form-login__button">Iniciar sesión</button>
+          <button class="form-login__button">Crea tu cuenta</button>
           <button class="form-login__button form-login__button--google">
             <img
               src="../img/logos/GoogleLogo.svg"
               class="form-login__button-img"
             />
-            Iniciar sesión con Google
+            Regístrate con Google
           </button>
           <span class="form-login__register"
-            >¿No tienes una cuenta?
-            <a href="./registro.html" class="form-login__register-link"
-              >Regístrate</a
+            >¿Ya tienes una cuenta?
+            <a href="./login.html" class="form-login__register-link"
+              >Inicia sesión</a
             ></span
           >
         </form>
